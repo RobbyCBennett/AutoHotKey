@@ -2,6 +2,44 @@
 
 
 
+; ; OpenRGB
+
+; ; Alt + Number
+; !1::
+; 	Run, "C:\Program Files\OpenRGB\OpenRGB.exe" --startminimized --server --profile "1 Red.orp"
+; return
+; !2::
+; 	Run, "C:\Program Files\OpenRGB\OpenRGB.exe" --startminimized --server --profile "2 Orange.orp"
+; return
+; !3::
+; 	Run, "C:\Program Files\OpenRGB\OpenRGB.exe" --startminimized --server --profile "3 Yellow.orp"
+; return
+; !4::
+; 	Run, "C:\Program Files\OpenRGB\OpenRGB.exe" --startminimized --server --profile "4 Green.orp"
+; return
+; !5::
+; 	Run, "C:\Program Files\OpenRGB\OpenRGB.exe" --startminimized --server --profile "5 Teal.orp"
+; return
+; !6::
+; 	Run, "C:\Program Files\OpenRGB\OpenRGB.exe" --startminimized --server --profile "6 Sky Blue.orp"
+; return
+; !7::
+; 	Run, "C:\Program Files\OpenRGB\OpenRGB.exe" --startminimized --server --profile "7 Deep Blue.orp"
+; return
+; !8::
+; 	Run, "C:\Program Files\OpenRGB\OpenRGB.exe" --startminimized --server --profile "8 Purple.orp"
+; return
+; !9::
+; 	Run, "C:\Program Files\OpenRGB\OpenRGB.exe" --startminimized --server --profile "9 Pink.orp"
+; return
+; !0::
+; 	; Process, Close, "OpenRGB.exe"
+; 	Run, "C:\Program Files\OpenRGB\OpenRGB.exe" --startminimized --server --profile "Off.orp"
+; return
+
+
+
+
 ; Stay on Top
 
 ; Windows + Space
