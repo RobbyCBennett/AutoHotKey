@@ -43,7 +43,7 @@ return
 
 
 
-; Select All, Cut, Copy, Paste, Find, Delete
+; Select All, Cut, Copy, Paste, Paste Unformatted, Find, Undo, Redo Delete
 
 ; Alt + A
 !A::
@@ -65,10 +65,25 @@ return
 	; Control + V
 	SendInput ^{v}
 return
+; Alt + Shift + V
+!+V::
+	; Control + V
+	SendInput ^{V}
+return
 ; Alt + F
 !F::
 	; Control + F
 	SendInput ^{f}
+return
+; Alt + U
+!U::
+	; Control + Z
+	SendInput ^{z}
+return
+; Alt + I
+!I::
+	; Control + Shift + Z
+	SendInput ^{Z}
 return
 ; Alt + D
 !D::
