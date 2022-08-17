@@ -93,6 +93,27 @@ return
 
 
 
+; Opening, Closing, Re-opening Tabs
+
+; Alt + N
+!N::
+	; Control + T
+	SendInput ^{t}
+return
+; Alt + M
+!M::
+	; Control + W
+	SendInput ^{w}
+return
+return
+; Alt + Shift + N
+!+N::
+	; Control + Shift + T
+	SendInput ^{T}
+return
+
+
+
 ; Media Controls
 
 ; Right Control + Space
