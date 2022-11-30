@@ -172,7 +172,7 @@ return
 	SendInput {Down}
 return
 
-; Alt + J
+; Alt + L
 !L::
 	; Up arrow
 	SendInput {Up}
