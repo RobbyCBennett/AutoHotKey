@@ -2,16 +2,6 @@
 
 
 
-; Stay on Top
-
-; Windows + Space
-#SPACE::
-	; Toggle always on top
-	WinSet, Alwaysontop, toggle, A
-return
-
-
-
 ; Dark Mode / Light Mode
 
 ; Control + Shift + D
