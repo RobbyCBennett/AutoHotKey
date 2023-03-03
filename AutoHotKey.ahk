@@ -1,4 +1,4 @@
-﻿; 2022/02/21
+; 2022/02/21
 
 #SingleInstance force
 
@@ -229,6 +229,38 @@
 	return
 }
 
+; Alt + Shift + J
+!+J::
+{
+	; Move to start of word
+	SendInput("{ControlDown}{Left}{ControlUp}")
+	return
+}
+
+; Alt + Shift + Semicolon
+!+;::
+{
+	; Move to end of word
+	SendInput("{ControlDown}{Right}{ControlUp}")
+	return
+}
+
+; Control + Alt + Shift + J
+^!+J::
+{
+	; Select to start of word
+	SendInput("{ControlDown}{ShiftDown}{Left}{ShiftUp}{ControlUp}")
+	return
+}
+
+; Control + Alt + Shift + Semicolon
+^!+;::
+{
+	; Select to end of word
+	SendInput("{ControlDown}{ShiftDown}{Right}{ShiftUp}{ControlUp}")
+	return
+}
+
 ; Control + Alt + J
 ^!J::
 {
@@ -309,7 +341,7 @@
 	return
 }
 
-; Control + Alt  + Shift K
+; Control + Alt + Shift K
 ^!+K::
 {
 	; Select to bottom
