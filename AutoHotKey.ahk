@@ -1,6 +1,20 @@
-; 2022/02/21
-
 #SingleInstance force
+
+
+
+; Bluetooth
+
+; Alt + Shift + B
+!+B::
+{
+	Run("ms-settings:bluetooth")
+	WinWaitActive("Settings")
+	Sleep(300)
+	SendInput("{Tab}{Space}")
+	WinClose("A")
+
+	return
+}
 
 
 
