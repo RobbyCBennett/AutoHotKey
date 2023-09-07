@@ -101,6 +101,14 @@
 	return
 }
 
+; Alt + G
+!G::
+{
+	; Control + G
+	SendInput("^{g}")
+	return
+}
+
 ; Alt + U
 !U::
 {
