@@ -51,13 +51,21 @@
 
 
 
-; Select All, Cut, Copy, Paste, Paste Unformatted, Find, Undo, Redo, and Delete
+; Select All, Save, Cut, Copy, Paste, Paste Unformatted, Find, Undo, Redo, and Delete
 
 ; Alt + A
 !A::
 {
 	; Control + A
 	SendInput("^{a}")
+	return
+}
+
+; Alt + S
+!S::
+{
+	; Control + S
+	SendInput("^{s}")
 	return
 }
 
@@ -334,16 +342,16 @@
 ; Alt + Shift + K
 !+K::
 {
-	; Move to bottom
-	SendInput("^{End}")
+	; Move page down
+	SendInput("{PgDn}")
 	return
 }
 
 ; Alt + Shift + L
 !+L::
 {
-	; Move to top
-	SendInput("^{Home}")
+	; Move page up
+	SendInput("{PgUp}")
 	return
 }
 
