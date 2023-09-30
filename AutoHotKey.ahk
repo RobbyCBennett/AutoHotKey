@@ -51,7 +51,23 @@
 
 
 
-; Select All, Save, Cut, Copy, Paste, Paste Unformatted, Find, Undo, Redo, and Delete
+; Open, Print, Select All, Save, Cut, Copy, Paste, Paste Unformatted, Find, Undo, Redo, and Delete
+
+; Alt + O
+!O::
+{
+	; Control + O
+	SendInput("^{o}")
+	return
+}
+
+; Alt + P
+!P::
+{
+	; Control + P
+	SendInput("^{p}")
+	return
+}
 
 ; Alt + A
 !A::
@@ -128,8 +144,8 @@
 ; Alt + I
 !I::
 {
-	; Control + Shift + Z
-	SendInput("^{Z}")
+	; Control + Y
+	SendInput("^{y}")
 	return
 }
 
