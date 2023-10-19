@@ -402,3 +402,15 @@
 	SendInput("{ShiftDown}^{Home}{ShiftUp}")
 	return
 }
+
+
+
+; VS Code
+
+; Right Shift + Space
+>+Space::
+{
+	; F13
+	SendInput("{f13}")
+	return
+}
