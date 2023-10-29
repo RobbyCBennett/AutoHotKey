@@ -2,6 +2,15 @@
 
 
 
+; Game Remaps
+
+#HotIf WinActive("ahk_exe Pumpkin Panic.exe")
+	ctrl::f
+	f::ctrl
+#HotIf
+
+
+
 ; Bluetooth
 
 ; Alt + Shift + B
