@@ -11,22 +11,6 @@
 
 
 
-; Bluetooth
-
-; Alt + Shift + B
-!+B::
-{
-	Run("ms-settings:bluetooth")
-	WinWaitActive("Settings")
-	Sleep(300)
-	SendInput("{Tab}{Space}")
-	WinClose("A")
-
-	return
-}
-
-
-
 ; Dark Mode / Light Mode
 
 ; Control + Shift + D
