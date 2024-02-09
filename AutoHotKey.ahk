@@ -1,13 +1,9 @@
 #SingleInstance force
 
 
+; Disable AutoHotKey in the following apps
 
-; Game Remaps
-
-#HotIf WinActive("ahk_exe Pumpkin Panic.exe")
-	ctrl::f
-	f::ctrl
-#HotIf
+#HotIf not WinActive("ahk_exe Pumpkin Panic.exe")
 
 
 
@@ -407,3 +403,7 @@
 	SendInput("{f13}")
 	return
 }
+
+
+
+#HotIf
