@@ -46,7 +46,11 @@
 !+B::
 {
 	Run("ms-settings:bluetooth")
-
+	WinWaitActive("Settings")
+	Sleep(300)
+	SendInput("{Tab}{Tab}{Tab}{Space}")
+	Sleep(500)
+	WinClose("A")
 	return
 }
 
