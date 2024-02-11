@@ -40,6 +40,18 @@
 
 
 
+; Bluetooth
+
+; Alt + Shift + B
+!+B::
+{
+	Run("ms-settings:bluetooth")
+
+	return
+}
+
+
+
 ; Open, Print, Select All, Save, Cut, Copy, Paste, Paste Unformatted, Find, Undo, Redo, and Delete
 
 ; Alt + O
